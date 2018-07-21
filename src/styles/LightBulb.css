@@ -1,13 +1,13 @@
 .bulb {
   width: 200px;
   height: 200px;
-  background-color: gold;
+  background: radial-gradient(white, yellow, gold);
   display: flex;
   align-items: center;
   justify-content: center;
   border: 3px solid black;
-  border-radius: 7px;
-  box-shadow: 3px 3px 3px 0px #888888;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 0px gold;
 }
 
 .bulbOff {
@@ -18,10 +18,46 @@
   align-items: center;
   justify-content: center;
   border: 3px solid black;
-  border-radius: 7px;
-  box-shadow: 3px 3px 3px 0px #888888;
+  border-radius: 50%;
 }
 
 .bulb-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  padding: 5rem;
   padding-bottom: 10rem;
+  background: radial-gradient(
+    circle,
+    white,
+    gold 40%,
+    yellow 60%,
+    grey 80%,
+    darkgrey 83%,
+    black 90%
+  );
+  border-top: 5px solid white;
+}
+.bulb-section-off {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  padding: 5rem;
+  padding-bottom: 10rem;
+  border-top: 5px solid white;
+}
+.bulbButton {
+  background-color: darkblue;
+  border: 5px solid white;
+  padding: 1em;
+  color: white;
+  font-size: 1.4em;
+  box-shadow: 0px 0px 2px 0px black;
+  margin-top: 1em;
 }

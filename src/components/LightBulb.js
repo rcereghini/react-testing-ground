@@ -24,14 +24,18 @@ class LightBulb extends Component {
       return (
         <div className="bulb-section">
           <h1 className="bulb">Here is a turned on state component</h1>
-          <button onClick={this.toggle}>Click Here!</button>
+          <button onClick={this.toggle} className="bulbButton">
+            Click Here!
+          </button>
         </div>
       );
     } else {
       return (
-        <div className="bulb-section">
+        <div className="bulb-section-off">
           <h1 className="bulbOff">Here is a turned off state component</h1>
-          <button onClick={this.toggle}>Click Here!</button>
+          <button onClick={this.toggle} className="bulbButton">
+            Click Here!
+          </button>
         </div>
       );
     }

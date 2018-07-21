@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <header className="rc-header">
       <Avatar />
-      <h1 className="rc-title">Welcome to React {props.name}</h1>
+      <h1 className="rc-title">{props.name}'s React Testing Ground</h1>
     </header>
   );
 }
