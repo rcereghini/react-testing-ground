@@ -1,0 +1,27 @@
+.bulb {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px 0px #888888;
+}
+
+.bulbOff {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px 0px #888888;
+}
+
+.bulb-section {
+  padding-bottom: 10rem;
+}
